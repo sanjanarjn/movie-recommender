@@ -9,6 +9,7 @@ import com.fasterxml.jackson.module.jsonSchema.JsonSchemaGenerator;
 import java.util.List;
 
 public record UserPreference(List<String> genres, double minRating, int releasedYear) {
+    
     public String getUserPreferenceInTextFormat() throws JsonProcessingException {
         StringBuilder prompt = new StringBuilder();
         prompt.append("Suggest me some good movies of the following genres: ");
