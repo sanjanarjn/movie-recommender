@@ -2,7 +2,10 @@
 
 ### Steps to run
 
-- Add your OpenAI api key in ```src/main/resources/application.properties```
+- Add your OpenAI api key in ```src/main/resources/application.properties``` as below:
+  ```
+  openai.api.key=<Your OpenAI API key>
+  ```
 
 - Try the curl command below to test out the movie recommender API.
 
